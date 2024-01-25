@@ -1,5 +1,7 @@
 # Manipulate Array and Objects in JavaScript
 This module provides functions to manipulate arrays and objects.
+
+npm link: https://www.npmjs.com/package/ao-manipulator
 ## Purpose
 **_BEWARE:_ This library was published for learning purposes.
 ## Usage
