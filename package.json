@@ -1,0 +1,22 @@
+{
+  "name": "ao-manipulator",
+  "version": "1.0.0",
+  "description": "This module provides functions to manipulate arrays and objects.\r ## Purpose\r **_BEWARE:_ This library was published for learning purposes.\r ## Usage\r **Install it:**\r `npm install @nhi_phan/<ao-manipulator>`\r **Require it:**\r `const _ = require('@nhi_phan/<ao-manipulator>');`\r **Call it:**\r const results = _.isArrayFactorChain([2, 4, 8, 16, 32]) //=> true\r ## Documentation\r The following functions are currently implemented:\r * `findNaNIndex()`: Find all the indexes where NaN is found in a given array of numbers and NaN.\r * `isArrayFactorChain()`: Return true or false if an array is a factor chain or not\r * `countNumberOfArrays()`: Return the count for the number of arrays inside a given array.\r * `participants()`: Returns an array of all unique the player names.\r * `winnersObject()`: Returns an object which lists each participant, and a list of who they've beaten.\r * `biggestLoser()`: Returns the loser name with the biggest tally of loser_points. If a player is the winner, the loser_points are subtracted, and if a player is a loser, then the loser_points are added. Find the player with the largest tally of loser_points.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plysnh/ao-manipulator.git"
+  },
+  "keywords": [
+    "ao-manipulator"
+  ],
+  "author": "Nhi Phan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plysnh/ao-manipulator/issues"
+  },
+  "homepage": "https://github.com/plysnh/ao-manipulator#readme"
+}
